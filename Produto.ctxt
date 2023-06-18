@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Produto
+comment1.params=nome\ preco\ dataValidade
+comment1.target=Produto(java.lang.String,\ double,\ Data)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=
+comment3.target=double\ getPreco()
+comment4.params=
+comment4.target=Data\ getDataValidade()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=preco
+comment6.target=void\ setPreco(double)
+comment7.params=data
+comment7.target=void\ setDataValidade(Data)
+comment8.params=validade
+comment8.target=boolean\ estaVencido(Data)
+comment9.params=
+comment9.target=java.lang.String\ exibeCondValidade()
+comment9.text=//\ m\u00E9todo\ para\ verificar\ se\ o\ produto\ est\u00E1\ vencido\r\npublic\ boolean\ estaVencido()\ {\r\n\ \ \ \ Data\ hoje\ \=\ new\ Data(23,\ 10,\ 2023);\r\n\ \ \ \ if\ (hoje.getAno()\ >\ dataValidade.getAno())\ {\r\n\ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ }\ else\ if\ (hoje.getAno()\ \=\=\ dataValidade.getAno()\ &&\ hoje.getMes()\ >\ dataValidade.getMes())\ {\r\n\ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ }\ else\ if\ (hoje.getAno()\ \=\=\ dataValidade.getAno()\ &&\ hoje.getMes()\ \=\=\ dataValidade.getMes()\ &&\ hoje.getDia()\ >\ dataValidade.getDia())\ {\r\n\ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ }\r\n}
+numComments=11
